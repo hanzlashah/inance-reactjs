@@ -6,10 +6,10 @@ function HomeServies() {
     <>
       <div className="bg-[#d1e3ff]  ">
         <div
-          className="flex justify-around flex-col md:flex-row items-center px-[20px] md:px-[10vw] py-[10vw] gap-y-4 gap-x-0 md:gap-x-[5vw] 
+          className="flex justify-around flex-col md:flex-row items-center px-[20px] md:px-[10vw] py-[10vw] gap-y-4 gap-x-0 md:gap-x-[3vw] 
       "
         >
-          <div className=" w-[100%] md:w-[20vw] hidden md:flex items-end">
+          <div className=" w-[100%] md:w-[30vw] hidden md:flex items-end">
             <img src={professional_img} className="h-[100%] md:h-[37.5vw]" />
           </div>
           <div className="px-[0px] md:px-[1vw] w-[90%] md:w-[40vw] ">

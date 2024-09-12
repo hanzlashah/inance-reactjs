@@ -5,14 +5,14 @@ import s3 from "../../src/assets/s3.png"
 function Different_Services() {
   return (
     <div className="mt-[100px] md:mt-[3vw] mb-10 w-[80vw] md:mb-[2vw] text-center mx-auto">
-      <h2 className=" md:text-[2vw] lg:text-[2vw] text-[#0355cc] font-sans font-[700] pb-[20px] md:pb-[1.5vw] text-center uppercase mb-[100px] md:mb-[3vw]">
+      <h2 className=" md:text-[2vw] lg:text-[2vw] text-[#0355cc] font-sans font-[700] pb-[20px] md:pb-[1.5vw] text-center uppercase mb-[10px] md:mb-[3vw]">
         Our Services
       </h2>
-      <div className="flex gap-[2vw] mb-[20px]  md:mb-[1vw] flex-wrap">
+      <div className="flex gap-[2vw] mb-[20px] md:justify-center justify-start  md:mb-[1vw] flex-wrap">
         <div className="card w-[100%] h-[90%] hover:bg-[#ff8a1d] hover:text-[#ffff]   p-[3vw] rounded-[10px] border md:h-[20vw] md:w-[30vw] lg:w-[25vw] lg:h-[15vw] bg-white flex flex-col gap-[20px] md:gap-[1vw] justify-center items-center shadow">
           <img
             src={s1}
-            className="h-[30%] w-[30%] md:w-[5vw] md:h-[5vw] mt-[10px] md:mt-[1vw] text-[#555089]"
+            className="h-[20%] w-[20%] md:w-[5vw] md:h-[5vw] mt-[10px] md:mt-[1vw] text-[#555089]"
           />
           <h3 className="text-[15px] md:text-[1vw] font-[500]  uppercase">
             Maintenance
@@ -25,7 +25,7 @@ function Different_Services() {
         <div className="card w-[100%] h-[90%] hover:bg-[#ff8a1d] hover:text-[#ffff]   p-[1.5vw] rounded-[10px] border md:h-[20vw] md:w-[30vw] lg:w-[25vw] lg:h-[15vw] bg-white flex flex-col gap-[20px] md:gap-[1vw] justify-center items-center shadow">
           <img
             src={s2}
-            className="h-[30%] w-[30%] md:w-[5vw] md:h-[5vw] mt-[10px] md:mt-[1vw]  text-[#555089]"
+            className="h-[20%] w-[20%] md:w-[5vw] md:h-[5vw] mt-[10px] md:mt-[1vw]  text-[#555089]"
           />
           <h3 className="text-[15px] md:text-[1vw] font-[500]  uppercase">
           Electrical
@@ -37,7 +37,7 @@ function Different_Services() {
         <div className="card w-[100%] h-[90%] hover:bg-[#ff8a1d] hover:text-[#ffff]   p-[1.5vw] rounded-[10px] border md:h-[20vw] md:w-[30vw] lg:w-[25vw] lg:h-[15vw] bg-white flex flex-col gap-[20px] md:gap-[1vw] justify-center items-center shadow">
           <img
             src={s3}
-            className="h-[30%] w-[30%] md:w-[5vw] md:h-[5vw] mt-[10px] md:mt-[1vw] text-[#555089]"
+            className="h-[20%] w-[20%] md:w-[5vw] md:h-[5vw] mt-[10px] md:mt-[1vw] text-[#555089]"
           />
           <h3 className="text-[15px] md:text-[1vw] font-[500]  uppercase">
           Plumbing
