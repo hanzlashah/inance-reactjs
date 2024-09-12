@@ -1,17 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from "../../my-app/src/Components/Header"
-import Navigation from "../../my-app/src/Components/Navigation"
-import Hero from "../../my-app/src/Components/Hero"
-import AboutUs from "../../my-app/src/Components/AboutUs"
-import HomeServies from "../../my-app/src/Components/HomeServies"
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "../../my-app/src/Components/Header";
+import Navigation from "../../my-app/src/Components/Navigation";
+import Hero from "../../my-app/src/Components/Hero";
+import AboutUs from "../../my-app/src/Components/AboutUs";
+import HomeServies from "../../my-app/src/Components/HomeServies";
+import Different_Services from "../../my-app/src/Components/Different_Services";
 function App() {
   return (
     <>
-    <Header/>
-    <Hero />
-    <AboutUs />
-    <HomeServies />
+      <Header />
+      <Hero />
+      <AboutUs />
+      <HomeServies />
+      <Different_Services />
     </>
     // <div className="App">
     //   <header className="App-header">
