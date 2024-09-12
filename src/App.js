@@ -4,12 +4,14 @@ import Header from "../../my-app/src/Components/Header"
 import Navigation from "../../my-app/src/Components/Navigation"
 import Hero from "../../my-app/src/Components/Hero"
 import AboutUs from "../../my-app/src/Components/AboutUs"
+import HomeServies from "../../my-app/src/Components/HomeServies"
 function App() {
   return (
     <>
     <Header/>
     <Hero />
     <AboutUs />
+    <HomeServies />
     </>
     // <div className="App">
     //   <header className="App-header">

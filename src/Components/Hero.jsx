@@ -33,12 +33,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      {/* <div className="bg-red-400 ">
-      <div className="bg-blue-400">
-      asda
-      </div>
-
-    </div> */}
+     
       <div className="mb-[100px] md:mb-[5vw] ">
         <div className="flex w-[100%] md:w-[70vw] md:flex-row  flex-col mx-auto gap-[20px] md:gap-[1vw] justify-center items-center">
       
