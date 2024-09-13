@@ -6,6 +6,7 @@ import Hero from "../../my-app/src/Components/Hero";
 import AboutUs from "../../my-app/src/Components/AboutUs";
 import HomeServies from "../../my-app/src/Components/HomeServies";
 import Different_Services from "../../my-app/src/Components/Different_Services";
+import Testimonal from "../src/Components/Testimonal"
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <AboutUs />
       <HomeServies />
       <Different_Services />
+      <Testimonal />
     </>
     // <div className="App">
     //   <header className="App-header">
