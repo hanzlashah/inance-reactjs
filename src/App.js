@@ -6,7 +6,8 @@ import Hero from "../../my-app/src/Components/Hero";
 import AboutUs from "../../my-app/src/Components/AboutUs";
 import HomeServies from "../../my-app/src/Components/HomeServies";
 import Different_Services from "../../my-app/src/Components/Different_Services";
-import Testimonal from "../src/Components/Testimonal"
+import Testimonal from "../src/Components/Testimonal";
+import ContactUs from "../src/Components/ContactUs";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <HomeServies />
       <Different_Services />
       <Testimonal />
+      <ContactUs />
     </>
     // <div className="App">
     //   <header className="App-header">
