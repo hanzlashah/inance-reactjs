@@ -2,11 +2,15 @@ import React from "react";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import { RiFacebookFill } from "react-icons/ri";
+import { FaTwitter } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
     <>
-      <div className="bg-blue-950 h-[400px] md:h-[20vw] py-[2vw]">
+      <div className="bg-blue-950 h-[400px] md:h-[40vw] py-[2vw]">
         <h2 className=" md:text-[2vw] lg:text-[2vw]  text-white text-center font-sans font-[700] pb-[20px] md:pb-[1.5vw] uppercase mb-[10px] md:mb-[3vw]">
           Get In Touch
         </h2>
@@ -36,6 +40,22 @@ function Footer() {
               demo@gmail.com
             </h2>
           </div>
+        </div>
+
+        <div className=" w-[100%] h-[10vw] ">
+          <h2 className=" md:text-[2vw]  mt-[8vw] mb-[5vw] text-center lg:text-[2vw]  text-white  font-sans font-[600] capitalize  ">
+            Follow Us
+          </h2>
+          <div className="flex w-[8vw] gap-[.5vw] mx-auto mb-[3vw] bg-white border">
+            <RiFacebookFill className=" h-[15px] w-[15px]    md:w-[2vw] md:h-[2vw] lg:w-[1.5vw] lg:h-[1.5vw] text-blue-800 "/>
+            <FaTwitter className=" h-[15px] w-[15px]    md:w-[2vw] md:h-[2vw] lg:w-[1.5vw] lg:h-[1.5vw] text-blue-800 "/>
+            <FaYoutube className=" h-[15px] w-[15px]    md:w-[2vw] md:h-[2vw] lg:w-[1.5vw] lg:h-[1.5vw] text-blue-800  "/>
+            <FaInstagram className=" h-[15px] w-[15px]    md:w-[2vw] md:h-[2vw] lg:w-[1.5vw] lg:h-[1.5vw] text-blue-800 "/>
+          </div>
+          <hr className="w-[70vw] mx-auto" />
+          <p className=" md:text-[1vw]  mt-[6vw] mb-[6vw] text-center lg:text-[1vw]  text-white  font-sans font-[400] capitalize  ">
+            © 2024 All Rights Reserved By Free Html Templates
+          </p>
         </div>
       </div>
     </>
