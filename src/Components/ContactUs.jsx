@@ -40,7 +40,7 @@ function ContactUs() {
               Send
             </button>
           </div>
-          <div className="border lg:w-[45vw]">
+          <div className=" lg:w-[45vw]">
             {/* // Important! Always set the container height explicitly */}
             <div style={{ height: "50vh", width: "100%" }}>
               <GoogleMapReact
