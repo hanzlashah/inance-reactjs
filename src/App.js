@@ -8,6 +8,7 @@ import HomeServies from "../../my-app/src/Components/HomeServies";
 import Different_Services from "../../my-app/src/Components/Different_Services";
 import Testimonal from "../src/Components/Testimonal";
 import ContactUs from "../src/Components/ContactUs";
+import Footer from "../src/Components/Footer"
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
       <Different_Services />
       <Testimonal />
       <ContactUs />
+      <Footer />
     </>
     // <div className="App">
     //   <header className="App-header">
