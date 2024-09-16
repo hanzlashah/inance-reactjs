@@ -3,8 +3,8 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
-import client_1 from "../assets/clien_1.jpg";
-import client_2 from "../assets/client_2.jpg";
+// import client_1 from "../assets/clien_1.jpg";
+// import client_2 from "../assets/client_2.jpg";
 import { LiaStarSolid } from "react-icons/lia";
 import { testimoanl } from "../../src/data/data";
 
