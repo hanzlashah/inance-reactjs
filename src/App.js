@@ -2,13 +2,13 @@ import logo from "./logo.svg";
 import "./App.css";
 import Header from "./Components/Header";
 import Navigation from "./Components/Navigation";
-import Hero from "./src/Components/Hero";
+import Hero from "./Components/Hero";
 import AboutUs from "./Components/AboutUs";
-import HomeServies from ".//Components/HomeServies";
+import HomeServies from "./Components/HomeServies";
 import Different_Services from "./Components/Different_Services";
-import Testimonal from "./src/Components/Testimonal";
-import ContactUs from "./src/Components/ContactUs";
-import Footer from " ./src/Components/Footer";
+import Testimonal from "./Components/Testimonal";
+import ContactUs from "./Components/ContactUs";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <>
